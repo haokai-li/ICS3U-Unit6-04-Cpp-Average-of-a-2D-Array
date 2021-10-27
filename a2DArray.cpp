@@ -59,7 +59,7 @@ int main() {
     // output
     std::cout << "" << std::endl;
     std::cout << std::fixed << std::setprecision(2)
-    << averageNumber << " " << std::endl;
+    << averageNumber << std::endl;
 
     std::cout << "\nDone." << std::endl;
 }
