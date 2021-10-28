@@ -2,7 +2,7 @@
 //
 // Created by: Haokai
 // Created on: Sept 2021
-// This Program calculate smallest number
+// This Program calculate average of 2d array
 
 #include <iostream>
 #include <random>
@@ -10,7 +10,7 @@
 
 template <int rows, int cols>
 float calculatedaverageNumber(int (&calculateA2DArray)[rows][cols]) {
-    // This function calculate smallest number
+    // This function calculate average of 2d array
     float totalNumber = 0;
     int rowsLen = sizeof(calculateA2DArray)/sizeof(calculateA2DArray[0]);
     int colsLen = sizeof(calculateA2DArray[0])/sizeof(calculateA2DArray[0][0]);
